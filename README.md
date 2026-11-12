@@ -20,11 +20,11 @@ npx -y skills add LJMStark/yt-shorts-2026
 
 ---
 
-## Why This Exists (2024 Legacy Advice vs. 2026 Official Rules)
+## Core 2026 Rules & High-Frequency Pitfalls
 
-Most circulating YouTube Shorts tutorials were written before two major platform shifts in 2025-2026. Following outdated advice frequently leads to zero monetization or instant global blocks:
+Understanding YouTube's current monetization and ranking mechanics prevents zero-revenue channels and instant global blocks:
 
-| Dimension | Outdated 2024 Advice (Broken) | 2026 Verified Platform Reality |
+| Dimension | High-Frequency Creator Pitfall | 2026 Verified Platform Standard |
 | :--- | :--- | :--- |
 | **View Counting & YPP** | Hit 10M public views in 90 days to unlock ad share. | Since **March 31, 2025**, public `Views` count every start/loop without a minimum watch threshold. YPP eligibility (3M / 10M) and ad payouts rely **100% on `Engaged Views`** inside Studio Advanced Analytics. |
 | **AI & YPP Review** | Generate 25 static AI pet images with pan/zoom transitions or slap a corner avatar on reuploads. | Since **July 15, 2025**, YouTube upgraded Repetitious Content into **`Inauthentic Content`**, rejecting mass-produced static slideshows, fake animal rescues, and unedited TTS-over-gameplay slop. |

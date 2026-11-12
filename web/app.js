@@ -33,7 +33,7 @@
     zh: {
       title: "YT Shorts 2026 · 有效观看精算与 YPP 过审排雷台",
       sub: "ENGAGED VIEWS LEDGER // 2025.03 & 2025.07 POLICY ENGINE",
-      presetTrap: "模拟 2024 旧攻略踩坑方案",
+      presetTrap: "模拟高频拒审踩坑方案",
       presetSafe: "加载 2026 合规高单价方案",
       langBtn: "EN / 中文",
       copyCmd: "复制安装命令",
@@ -63,7 +63,7 @@
     en: {
       title: "YT Shorts 2026 · Engaged Views & YPP Compliance Auditor",
       sub: "ENGAGED VIEWS LEDGER // 2025.03 & 2025.07 POLICY ENGINE",
-      presetTrap: "Load 2024 Outdated Trap Preset",
+      presetTrap: "Load High-Risk Reject Trap",
       presetSafe: "Load 2026 Compliant Tier-1 Preset",
       langBtn: "中文 / EN",
       copyCmd: "Copy CLI Install",
