@@ -1,0 +1,10 @@
+{
+  "name": "yt-shorts-2026",
+  "main": "src/worker.js",
+  "compatibility_date": "2025-10-01",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./web",
+    "binding": "ASSETS"
+  }
+}

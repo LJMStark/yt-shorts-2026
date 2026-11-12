@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YT Shorts 2026 · Engaged Views & YPP Compliance Auditor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <div class="brand-group">
+        <div class="brand-mark">YT26</div>
+        <div class="brand-title">
+          <h1 id="txt-title">YT Shorts 2026 · 有效观看精算与 YPP 过审排雷台</h1>
+          <div class="brand-sub" id="txt-sub">ENGAGED VIEWS LEDGER // 2025.03 & 2025.07 POLICY ENGINE</div>
+        </div>
+      </div>
+      <div class="toolbar">
+        <button type="button" class="preset-btn danger-preset" id="btn-trap">模拟 2024 旧攻略踩坑方案</button>
+        <button type="button" class="preset-btn safe-preset" id="btn-safe">加载 2026 合规高单价方案</button>
+        <button type="button" class="lang-btn" id="btn-lang">EN / 中文</button>
+      </div>
+    </header>
+
+    <section class="cli-banner">
+      <div class="cli-code-wrap">
+        <span class="cli-tag">Agent Skill</span>
+        <code class="cli-cmd" id="cli-cmd-text">npx -y skills add LJMStark/yt-shorts-2026 -g --all</code>
+      </div>
+      <button type="button" class="copy-btn" id="btn-copy">复制安装命令</button>
+    </section>
+
+    <main class="workspace-grid">
+      <aside class="panel">
+        <div class="panel-header">
+          <span class="panel-title" id="txt-input-panel">频道参数与内容形态输入</span>
+          <span class="brand-sub">v2026.11</span>
+        </div>
+
+        <div class="control-group">
+          <div class="control-label">
+            <span id="lbl-views">预计日均公开播放 (Public Views)</span>
+            <span class="control-val" id="val-views">220,000</span>
+          </div>
+          <input type="range" id="in-views" min="10000" max="1000000" step="10000" value="220000" />
+        </div>
+
+        <div class="control-group">
+          <div class="control-label">
+            <span id="lbl-vvsa">VVSA 选择观看率 (未划走比例)</span>
+            <span class="control-val" id="val-vvsa">76%</span>
+          </div>
+          <input type="range" id="in-vvsa" min="30" max="92" step="1" value="76" />
+        </div>
+
+        <div class="control-group">
+          <div class="control-label">
+            <span id="lbl-duration">单条视频时长 (秒)</span>
+            <span class="control-val" id="val-duration">46s</span>
+          </div>
+          <input type="range" id="in-duration" min="12" max="195" step="1" value="46" />
+        </div>
+
+        <div class="control-group">
+          <div class="control-label">
+            <span id="lbl-apv">平均观看比例 APV (含重播)</span>
+            <span class="control-val" id="val-apv">82%</span>
+          </div>
+          <input type="range" id="in-apv" min="25" max="135" step="1" value="82" />
+        </div>
+
+        <div class="control-group">
+          <div class="control-label"><span id="lbl-tier">目标受众广告单价区 (RPM)</span></div>
+          <select id="in-tier">
+            <option value="tier1" selected>Tier 1 · 美/英/澳/加/日/德 ($0.08-$0.20+)</option>
+            <option value="mixed">Mixed · 全球英语混合流量 ($0.03-$0.10)</option>
+            <option value="tier3">Tier 3 · 印度/东南亚低单价区 ($0.01-$0.02)</option>
+          </select>
+        </div>
+
+        <div class="control-group">
+          <div class="control-label"><span id="lbl-music">背景配乐版权来源</span></div>
+          <select id="in-music">
+            <option value="original_or_royalty_free" selected>免版税 Audio Library / 原创配音 (保留100%池权重)</option>
+            <option value="shorts_commercial_1track">Shorts 商业曲库 1 首 (扣减50%池，>60秒全球禁播)</option>
+            <option value="shorts_commercial_2tracks">Shorts 商业曲库 2 首+ (扣减67%池，>60秒全球禁播)</option>
+            <option value="unlicensed_bgm">扒同行视频未授权 BGM (Content ID 高危拒付)</option>
+          </select>
+        </div>
+
+        <div class="control-group">
+          <div class="control-label"><span id="lbl-prod">内容生产与剪辑范式</span></div>
+          <select id="in-prod">
+            <option value="ai_assisted_original" selected>AI 辅助分镜配音 + 人工原创叙事脚本 (合规)</option>
+            <option value="original_scripted">纯人工深度考据解说 / 实拍混剪 (合规)</option>
+            <option value="static_slideshow_ai">25张静态AI图缩放 PPT 宠物故事 (2025.07 拒审)</option>
+            <option value="reupload_fake_avatar">搬运切片 + 左下角贴假人头镜像去重 (拒审)</option>
+            <option value="tts_reddit_slop">纯机器念帖拼无关跑酷解压视频 (拒审)</option>
+          </select>
+        </div>
+
+        <div class="toggle-list">
+          <label class="toggle-row">
+            <input type="checkbox" id="in-real-ai" checked />
+            <span id="lbl-real-ai">包含写实合成人物/逼真虚构场景</span>
+          </label>
+          <label class="toggle-row">
+            <input type="checkbox" id="in-disclosed" checked />
+            <span id="lbl-disclosed">已在 Studio 勾选「修改或合成内容」声明</span>
+          </label>
+          <label class="toggle-row">
+            <input type="checkbox" id="in-w8ben" checked />
+            <span id="lbl-w8ben">已填报 AdSense W-8BEN 美中税收协定 (0% 服务预扣)</span>
+          </label>
+        </div>
+      </aside>
+
+      <section>
+        <div class="kpi-grid">
+          <div class="kpi-card">
+            <div class="kpi-label" id="kpi-lbl-status">YPP 过审与变现判定</div>
+            <div id="out-status"></div>
+            <div class="kpi-meta" id="out-status-meta"></div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label" id="kpi-lbl-engaged">日均有效观看 (Engaged Views)</div>
+            <div class="kpi-num" id="out-engaged">152,152</div>
+            <div class="kpi-meta" id="out-engaged-meta"></div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label" id="kpi-lbl-net">预计月度净到手美金 (45% 池)</div>
+            <div class="kpi-num" id="out-net">$639</div>
+            <div class="kpi-meta" id="out-net-meta"></div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label" id="kpi-lbl-pool">算法推荐池层级</div>
+            <div class="kpi-num" style="font-size:17px; padding-top:5px;" id="out-pool">EXPLORE POOL</div>
+            <div class="kpi-meta" id="out-pool-meta"></div>
+          </div>
+        </div>
+
+        <div class="progress-section">
+          <div class="meter-box">
+            <div class="meter-top">
+              <span id="lbl-ypp-3m">YPP 粉丝变现档 (90天 300万 Engaged Views)</span>
+              <span class="control-val" id="meta-3m">100%</span>
+            </div>
+            <div class="meter-track"><div class="meter-fill" id="bar-3m"></div></div>
+          </div>
+          <div class="meter-box">
+            <div class="meter-top">
+              <span id="lbl-ypp-10m">YPP 广告分成档 (90天 1,000万 Engaged Views)</span>
+              <span class="control-val" id="meta-10m">100%</span>
+            </div>
+            <div class="meter-track"><div class="meter-fill" id="bar-10m"></div></div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-header">
+            <span class="panel-title" id="txt-audit-header">2026 官方规则逐项排雷诊断</span>
+            <span class="brand-sub">github.com/LJMStark/yt-shorts-2026</span>
+          </div>
+          <div class="risk-stack" id="risk-list"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>
